@@ -2,9 +2,13 @@ import random
 
 
 def sumoProduct(l1, l2):
-    ##################################################
-    # make your code
-    ##################################################
+    sum = 0
+    m = len(numbers2)
+    n = len(numbers1)
+    for i in range(0, n):
+        for j in range(0, m):
+            sumoProduct = i * j
+            return sumoProduct
 
 
 numbers1 = [5, 3, 1, 1, 2]
